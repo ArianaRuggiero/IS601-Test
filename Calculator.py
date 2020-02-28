@@ -6,12 +6,12 @@ class Calculator:
         def multiply(self, num1, num2):
                 return num1 * num2
         def divide(self, num1, num2):
-                return num 1 / num2
+                return num1 / num2
 if __name__ == "__main__":
         c = Calculator()
-        Print (c.add(1,2))
+	
 class calculator:
-def test_calc_add():
+	def test_calc_add():
         	from Calculator import Calculator
         	c = Calculator()
         	assert c.add(2,2) == 4
@@ -25,10 +25,10 @@ def test_calc_multiply():
         c = Calculator()
         assert c.multiply(2,2) == 4
 class Calculator: 
-def test_calc_subtract():
-        from Calculator import Calculator
-        c = Calculator()
-        assert c.subtract(10,5) == 5
+	def test_calc_subtract():
+        	from Calculator import Calculator
+        	c = Calculator()
+        	assert c.subtract(10,5) == 5
 def test_calc_subtract_fail():
         from Calculator import Calculator
         c = Calculator()
@@ -36,7 +36,7 @@ def test_calc_subtract_fail():
 def test_calc_subtract():
         from Calculator import Calculator
         c = Calculator()
-        Assert c.subtract(10,5) == 5
+        assert c.subtract(10,5) == 5
 def test_calc_subtract_fail():
         from Calculator import Calculator
         c = Calculator()
