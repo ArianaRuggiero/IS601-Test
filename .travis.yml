@@ -14,3 +14,6 @@ install:
 # command to run tests
 script:
   - pytest
+virtualenv:
+  system_site_packages: true
+
